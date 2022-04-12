@@ -5,10 +5,10 @@ ECHO.
 
 Rem INPUTS
 SET /p ARGUMENT=Enter type of test (P)ING or (A)RP:%=%
-IF "%ARGUMENT%"=="PING" SET /p SUBNET=Enter IP range without last station number (like: 192.168.1):%=%
-IF "%ARGUMENT%"=="PING" SET /p FROM=Scan from:%=%
-IF "%ARGUMENT%"=="PING" SET /p TO=Scan to:%=%
-IF "%ARGUMENT%"=="PING" SET /p SPEED=Ping Speed (ms):%=%
+IF "%ARGUMENT%"=="P" SET /p SUBNET=Enter IP range without last station number (like: 192.168.1):%=%
+IF "%ARGUMENT%"=="P" SET /p FROM=Scan from:%=%
+IF "%ARGUMENT%"=="P" SET /p TO=Scan to:%=%
+IF "%ARGUMENT%"=="P" SET /p SPEED=Ping Speed (ms):%=%
 ECHO.
 
 ECHO #############################################################
